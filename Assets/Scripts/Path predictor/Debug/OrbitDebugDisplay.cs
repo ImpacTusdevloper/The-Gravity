@@ -17,7 +17,7 @@ public class OrbitDebugDisplay : MonoBehaviour
     public Body centralBody;
     public float width = 100;
     public bool useThickLines;
-
+    /*
     void Start()
     {
         if (Application.isPlaying)
@@ -29,7 +29,7 @@ public class OrbitDebugDisplay : MonoBehaviour
         if (!Application.isPlaying && !EditorApplication.isPaused)
             DrawOrbits();
     }
-
+    */
     void DrawOrbits()
     {
         Body[] bodies = Universe.allBodies.ToArray();
